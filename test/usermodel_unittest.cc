@@ -8,7 +8,7 @@
 
 #include "base/files/file_path.h"
 
-#include "brave/vendor/bat-native-usermodel/src/user_model_impl.h"
+#include "onevn/vendor/bat-native-usermodel/src/user_model_impl.h"
 
 #include "rapidjson/document.h"
 #include "rapidjson/writer.h"
@@ -21,7 +21,7 @@ namespace usermodel {
 
 // Test data directory, relative to source root
 const base::FilePath::CharType kTestDataRelativePath[] =
-  FILE_PATH_LITERAL("brave/vendor/bat-native-usermodel/test/data");
+  FILE_PATH_LITERAL("onevn/vendor/bat-native-usermodel/test/data");
 
 class UserModelTest : public ::testing::Test {
  protected:

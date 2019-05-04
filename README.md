@@ -115,7 +115,7 @@ std::string winning_category = WinningCategory(scores);
 ## Unit Tests
 
 ```
-npm run test -- brave_unit_tests --filter=UserModelTest.*
+npm run test -- onevn_unit_tests --filter=UserModelTest.*
 ```
 
 ## Limitations
